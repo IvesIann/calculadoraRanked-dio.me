@@ -39,7 +39,7 @@ switch(true){
 
     case saldoJogador >=101:
         nivelJogador = "Imortal" 
-        console.log("O Herói tem o saldo total de : " + saldoJogador +  " vitorias e está no nível : " + nivelJogador)
+        console.log("O Herói tem o saldo total de: " + saldoJogador +  " vitorias e está no nível : " + nivelJogador)
     break
 }
 
