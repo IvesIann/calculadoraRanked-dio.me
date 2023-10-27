@@ -1,7 +1,7 @@
-let saldoJogador = saldoPartidas(200, 30)
+let saldoJogador = calcularPartidas(200, 30)
 let nivelJogador = " "
 
-function saldoPartidas(quantidadeVitoria, quantidadeDerrota){
+function calcularPartidas(quantidadeVitoria, quantidadeDerrota){
     let winRate = quantidadeVitoria - quantidadeDerrota
     return winRate
 }
